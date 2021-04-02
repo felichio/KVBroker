@@ -39,9 +39,8 @@ public class Validator
                 
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
-                Console.WriteLine(e);
                 return false;
             }
         };
