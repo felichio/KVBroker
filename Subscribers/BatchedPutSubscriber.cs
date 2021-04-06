@@ -26,6 +26,11 @@ class BatchedPutSubscriber : InputSubscriber
             string[] lines = File.ReadAllLines(p.Message);
             List<string> list = new List<string>();
             
+            int alive = Action.GetAlive().Count();
+            if (alive != Action.ConnectionPool.Count())
+            {
+                return "Indexing must be performed with all servers in UP state. Issue CONNECTIONS to view status. Initiating without index file...";
+            }
             for (int i = 0; i < lines.Length; i++)
             {
                 
