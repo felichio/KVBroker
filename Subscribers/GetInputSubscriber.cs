@@ -47,6 +47,7 @@ class GetInputSubscriber : InputSubscriber
             if (real.Count() > 0)
             {
                 text = real.First();
+                return text;
             }
             else
             {
