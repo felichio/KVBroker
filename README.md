@@ -35,7 +35,7 @@ Download [docker](https://docs.docker.com/get-docker/) for your platform
 
 Get the Dockefile either by cloning this project (see standalone setup) or using wget
 ```bash
-wget -O Dockerfile https://raw.githubusercontent.com/felichio/DataGenerator/master/Dockerfile?token=ADE423QMTKNSB4BDQBGGLPDANQ7RQ
+wget -O Dockerfile https://gist.githubusercontent.com/felichio/eac8f815bffed23b14c63a0e72088ea2/raw/f12c57b240f9372e7ac285c0a18be87c984da1a8/Dockerfile
 ```
 Assuming Dockerfile is residing in the current directory.
 Build the image
