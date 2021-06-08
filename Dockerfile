@@ -2,11 +2,11 @@ FROM mcr.microsoft.com/dotnet/sdk:3.1
 
 WORKDIR /tripleAppSetup
 
-RUN git clone https://felichio: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@github.com/felichio/DataGenerator.git
+RUN git clone https://github.com/felichio/DataGenerator.git
 
-RUN git clone https://felichio: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@github.com/felichio/KVBroker.git
+RUN git clone https://github.com/felichio/KVBroker.git
 
-RUN git clone https://felichio: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@github.com/felichio/KVServer.git
+RUN git clone https://github.com/felichio/KVServer.git
 
 RUN cd DataGenerator && dotnet build -c Release -o app
 
