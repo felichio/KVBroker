@@ -9,9 +9,9 @@ dotnet --info
 ```
 to confirm successful installation.
 
-Then inside a new folder download the private repository issuing
+Then inside a new folder download the repository issuing
 ```bash
-git clone https://felichio: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@github.com/felichio/KVBroker.git
+git clone https://github.com/felichio/KVBroker.git
 ```
 Navigate inside *KVBroker* folder and build the executable
 ```bash
